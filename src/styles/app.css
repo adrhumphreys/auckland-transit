@@ -1,0 +1,27 @@
+.main-map {
+    width: 100%;
+}
+
+.map-controls {
+    position: absolute;
+    bottom: 40px;
+    right: 10px;
+}
+
+.control-panel {
+    position: absolute;
+    top: 0;
+    right: 0;
+    max-width: 320px;
+    background: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+    padding: 0 16px 12px;
+    margin: 20px;
+    font-size: 13px;
+    line-height: 2;
+    color: #6b6b76;
+    outline: none;
+    z-index: 1;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 4px;
+}
