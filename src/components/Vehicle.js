@@ -12,14 +12,14 @@ function getIcon(vehicle) {
 function getOccupiedIcon(vehicle) {
     switch (vehicle.occupied) {
         case 0:
-            return '🟢'
+            return '☀️'
         case 1:
-            return '🟠'
+            return '🌤'
         case 2:
-            return '🔴'
+            return '🌧'
     }
 
-    return '🟡'
+    return '☂️'
 }
 
 function getTypeIcon(vehicle) {
