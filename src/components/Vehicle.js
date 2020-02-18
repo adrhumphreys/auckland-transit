@@ -19,7 +19,7 @@ function getOccupiedIcon(vehicle) {
             return '🌧'
     }
 
-    return '☂️'
+    return '🌊'
 }
 
 function getTypeIcon(vehicle) {
